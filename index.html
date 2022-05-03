@@ -3,48 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beauty Coven | Homepage</title>
+    <title>COURSE HOMEPAGE</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-   <div id="content">
-       <header>
-           <div id="logo-area">
-               <img class="logo" src="C:\Users\HENRY\Desktop\Web\wdd230\images\logo.jpg" alt="beauty coven logo"/>
-           </div>
-           <nav>
-               <ul>
-                   <li><a href="index.html"> Home</a></li>
-                   <li><a href="services.html"> Our Services</a></li>
-                   <li><a href="gallery.html"> Gallery</a></li>
-                   <li><a href="contactus.html"> Contact Us</a></li>
-               </ul>
-           </nav>
-       </header>
-       
+    <header>
+        <picture></picture>
+            <img class="logo" src="images\Photo.jpg" alt="my photo"/>
+        </picture>  
+            <h3>Nwaokonko, Uchenna Henry</h3>
+    </header>
+    <main>
+    <div id="homegrid">
+        <h2 class="intro">WDD 230: Assignment Portal</h2>
+        <ul>
+            <li>Lesson 02: <a href="..">Title</a></li>
+            <li>Lesson 03: <a href="..">Title</a></li>
+            <li>Lesson 04: <a href="..">Title</a></li>
+            <li>Lesson 05: <a href="..">Title</a></li>
+            <li>Lesson 06: <a href="..">Title</a></li>
+            <li>Lesson 07: <a href="..">Title</a></li>
+            <li>Lesson 08: <a href="..">Title</a></li>
+            <li>Lesson 09: <a href="..">Title</a></li>
+            <li>Lesson 10: <a href="..">Title</a></li>
+            <li>Lesson 11: <a href="..">Title</a></li>
+        </ul>
+        <p>Some assignment may need more than one activity/assignment link.</p>
+    </div>
+</main>
+<footer>
+    <div id="summary">
+        &copy; 2022 |Nwaokonko, Uchenna Henry | Nigeria
+        <h4>Last Updated:</h4>
+        <p id="update"></p>
 
-
-
-
-
-
-    <footer>
-        <div id="summary">
-            &copy; 2022 |Nwaokonko, Uchenna Henry | Nigeria
-            <h4>Last Updated:</h4>
-            <p id="update"></p>
-    
-            <script>
-                const d = new Date();
-            let datetime = d.getFullYear()+'/'+d.getMonth()+'/'+d.getDate()+ '  ' + d.getHours()+':'+d.getMinutes()+':'+d.getSeconds();
-            document.getElementById("update").innerHTML = datetime;
-            
-            </script>
-        </div>
-    </footer>
-   </div>
-
-
+        <script>
+            const d = new Date();
+        let datetime = d.getFullYear()+'/'+d.getMonth()+'/'+d.getDate()+ '  ' + d.getHours()+':'+d.getMinutes()+':'+d.getSeconds();
+        document.getElementById("update").innerHTML = datetime;
+        
+        </script>
+    </div>
+</footer>
+</div>
 </body>
 
 

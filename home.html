@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Coven | Homepage</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+   <div id="content">
+       <header>
+           <div id="logo-area">
+               <img class="logo" src="C:\Users\HENRY\Desktop\Web\wdd230\images\logo.jpg" alt="beauty coven logo"/>
+           </div>
+           <nav>
+               <ul>
+                   <li><a href="index.html"> Home</a></li>
+                   <li><a href="services.html"> Our Services</a></li>
+                   <li><a href="gallery.html"> Gallery</a></li>
+                   <li><a href="contactus.html"> Contact Us</a></li>
+               </ul>
+           </nav>
+       </header>
+       
+
+
+
+
+
+
+    <footer>
+        <div id="summary">
+            &copy; 2022 |Nwaokonko, Uchenna Henry | Nigeria
+            <h4>Last Updated:</h4>
+            <p id="update"></p>
+    
+            <script>
+                const d = new Date();
+            let datetime = d.getFullYear()+'/'+d.getMonth()+'/'+d.getDate()+ '  ' + d.getHours()+':'+d.getMinutes()+':'+d.getSeconds();
+            document.getElementById("update").innerHTML = datetime;
+            
+            </script>
+        </div>
+    </footer>
+   </div>
+
+
+</body>
+
+
+</html>
