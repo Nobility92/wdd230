@@ -71,3 +71,19 @@ body {
    color: white;
    font-weight: bold;
  }
+
+ #homegrid{
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   grid-template-rows: repeat(3, 1fr);
+   grid-gap: 1em;
+   width:100%;
+ }
+ .intro{
+   grid-column: 1/6;
+   grid-row: 1/2;
+ }
+ #homegrid ul li{
+  grid-column: 1/4;
+  grid-row: 1/3;
+ }
