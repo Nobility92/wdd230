@@ -128,13 +128,13 @@ body {
 }
 #summary p{
   grid-column: 2/5;
+  text-align: center;
   margin-top: 30px;
-  margin-left: 70px;
+  
 }
 #summary h4{
-  grid-column: 3/4;
+  grid-column: 2/5;
+  text-align: center;
   margin-top: -5px;
-}
-#summary, #update{
-  grid-column: 4/5;
+ 
 }
