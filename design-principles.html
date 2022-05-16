@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Principles</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,100;1,200;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/design.css">
+    
+</head>
+<body>
+    <div id="info">
+        <header>
+            <div id="p-area">
+                <h1>DESIGN PRINCIPLES</h1>
+            </div>
+        </header>
+        <main>
+            <div id="home">
+                <h3 class="des">My Three Design Principles are:</h3>
+                <img class="proxi" src="images/proxi.png" alt="proximity image"/>
+                <h4 class="mal">PROXIMITY: MALCOM'S</h4>
+                <p class="fun">Malcom's funeral home website is a good example of proximity because it group related items together and keeps unrelated items apart. 
+                <a href="https://www.malcomsfuneralhome.com" target="_blank">Visit Website</a></p> <br><br>
+
+               <img class="contrast" src="images/contra.png" alt="contrast image"/>
+               <h4 class="across">CONTRAST: ACROSS THE HORIZON TECHNOLOGIES</h4>
+               <p class="con">The webpage has a dark blue background color and hence using a black font or any other color may not be pleasing to the eye. But with the white font color, it makes it easier to read.
+               <a href="https://www.athtgroup.com" target="blank">Visit Website</a></p><br><br>
+
+               <img class="repetition" src="images/repiti.png" alt="repetition image"/>
+               <h4 class="pay">REPETITION: PAY4ME</h4>
+               <p class="rep">This part is a good example of repetition because the numbering style and font is consistent.
+               <a href="https://www.pay4me.app" target="_blank">Visit Website</a></p>
+            </main>
+
+            <footer>
+                <div id="summary">
+                    <p>&copy; 2022 | Nwaokonko, Uchenna Henry | Nigeria</p>
+                    <h4>Last Updated: <span id="update"></span></h4>
+                    <script>
+                        const d = new Date();
+                    let datetime = d.getFullYear()+'/'+d.getMonth()+'/'+d.getDate()+ '  ' + d.getHours()+':'+d.getMinutes()+':'+d.getSeconds();
+                    document.getElementById("update").innerHTML = datetime;
+                    </script>
+                    
+                </div>
+            </footer>
+
+
+
+            </div>
+        
+    </div>
+
+
+</body>
+
+</html>
