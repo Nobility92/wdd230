@@ -66,3 +66,16 @@
 nav ul li a:hover{
   background-color: rgba(0,0,0,0.3);
 }
+
+.site-name{
+  margin-top: -15px;
+  margin-bottom: 40px;
+}
+.purpose{
+  margin-top: -15px;
+  margin-bottom: 40px;
+}
+.domain{
+  margin-top: -15px;
+  margin-bottom: 40px;
+}
