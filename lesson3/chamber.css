@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Zen+Kurenaido&display=swap");
-@media only screen and (min-width: 64em){
+
 
     body {
         background-color: #4444;
@@ -54,6 +54,7 @@
       list-style-type: none;
       padding: 0;
       margin: 0;
+      
   }
   nav ul li a{
     display: block;
@@ -64,5 +65,4 @@
 }
 nav ul li a:hover{
   background-color: rgba(0,0,0,0.3);
-}
 }
