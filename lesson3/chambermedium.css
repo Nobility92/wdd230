@@ -10,7 +10,11 @@
         --d: 75%;
     }
 
-    .name {
+    h2{
+        color: white;
+        text-align: center;
+        margin-top: 25px;
         font-size: xx-large;
+        font-family: "Cinzel", serif;
     }
 }
