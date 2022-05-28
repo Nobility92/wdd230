@@ -1,15 +1,12 @@
-@media only screen and (min-width: 35em){
-    nav button{
-        display: none;
-    }
-    nav ul#primaryNav{
-        display: flex;
-        margin-left: 2vw;
-        border-left: 1px solid rgba(0,0,0,0.3);
-    }
+@media only screen and (min-width: 37.5em){
 
-    nav ul li a{
-        border: none;
-        border-right: 1px solid rgba(0,0,0,0.3);
+    h1 {
+		font-size: 1.5rem;
+	}
+    nav ul { display: flex; }
+    nav ul li { flex: 1 1 auto; } 
+    nav a:hover{
+        color: #E0BE36;
+        --d: 75%;
     }
 }
