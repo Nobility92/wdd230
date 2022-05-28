@@ -9,4 +9,8 @@
         color: #E0BE36;
         --d: 75%;
     }
+
+    .name {
+        font-size: xx-large;
+    }
 }
