@@ -3,7 +3,7 @@
         display: none;
     }
 
-    nav ul{
+    nav ul#primaryNav{
         display: flex;
         margin-left: 2vw;
     }

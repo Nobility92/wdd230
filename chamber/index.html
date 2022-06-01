@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/medium.css"/>
     <link rel="stylesheet" href="css/large.css"/>
     
+    
 </head>
 <body>
     <div id="container">
@@ -26,14 +27,9 @@
                 <h3 class="white1">Chamber of Commerce</h3>
             </section>
         </div>
-       
-        <div class="social">
-          <a href="https//:www.facebook.com"><img src="images/facebook.png" class="fb" alt="facebook image"></a>  
-            <a href="https//:www.linkedin.com"><img src="images/linkedin.png" class="ln" alt="linkedin image"></a>
-        </div>
         <nav>
-            <button>&#9776;</button>
-            <ul>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="">Discovery</a></li>
                 <li><a href="">Directory</a></li>
@@ -41,10 +37,17 @@
                 <li><a href="">Contact</a></li>
             </ul>
         </nav>
-    </header>
+        <div class="social">
+          <a href="https//:www.facebook.com"><img src="images/facebook.png" class="fb" alt="facebook image"></a>  
+            <a href="https//:www.linkedin.com"><img src="images/linkedin.png" class="ln" alt="linkedin image"></a>
+        </div>
        
+    </header>
     
     <main>
+        <div id="home-grid">
+            <div id="box" placeholder="Event"></div>
+        </div>
     
 </main>
 <footer>
@@ -55,6 +58,7 @@
     </div>
 </footer>
 </div>
+<script src="js/script.js"></script>
 </body>
 
 
