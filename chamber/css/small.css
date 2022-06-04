@@ -6,11 +6,13 @@
         padding: 1.5em;
 }
 
-header{
+header, footer{
     background-color: #0B2545;
     padding: 5px 0;
     width: 100%;  
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     border-radius: 5px;
     box-shadow: 5px 10px 5px #89A1EF;
 }
@@ -29,10 +31,23 @@ body p{
 .white1{
     margin-top: -20px;
 }
+
 #logo-area{
     display: flex;
 }
+#logo-area1{
+    display: flex;
+}
 .heading{
+    display: flex;
+    flex-direction: column;
+}
+.heading1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.heading2{
     display: flex;
     flex-direction: column;
 }
@@ -40,6 +55,13 @@ body p{
     height: auto;
     width: 100px;
     padding: 5px;
+}
+
+.logo1{
+    height: 120px;
+    width: 120px;
+    padding: 5px;
+    margin-left: 40px;
 }
 .fb, .ln{
     height: 40px;
@@ -55,7 +77,6 @@ body p{
 nav{
     background-color: #0B2545;
     margin-top: 5px;
-
   }
   nav button{
       margin: .2rem 2vw;
@@ -145,4 +166,44 @@ nav ul.open{
     grid-column: 4/5;
     grid-row: 1/6;
     border: 1px solid;
+}
+
+.con{
+    color: #FFFFFF;
+    font-size: large;
+    margin-left: 100px;
+}
+.date{
+    background-color: #071136;
+    height: 30px;
+    width: 100%;
+    padding: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 22px;
+}
+.foot{
+    background-color: #0B2545;
+    height: 40px;
+    width: 100%;
+    padding: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid black;
+}
+.foot1{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 2px;
+}
+.update{
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: -15px;
+    font-size: 12px;
 }
