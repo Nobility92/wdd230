@@ -6,17 +6,17 @@ button.addEventListener('click', () => {
     const mylist = input.value;
     input.value = " "; 
 
-    const btnlist = document.querySelector('li');
-    const myspan = document.querySelector('span');
-    const btndelete = document.querySelector('button');
+    const btnlist = document.createElement('li');
+    const myspan = document.createElement('span');
+    const btndelete = document.createElement('button');
 
     btnlist.appendChild(myspan);
-    btnlist.appendChild(btndelete);
     myspan.textContent = mylist;
+    btnlist.appendChild(btndelete);
     btndelete.textContent = 'X';
     list.appendChild(btnlist);
 
-    btndelete.addEventListener('click', ()=>{
+    btndelete.addEventListener('click', () => {
         list.removeChild(btnlist);
     });
         input.focus();

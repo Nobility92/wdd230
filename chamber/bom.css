@@ -48,7 +48,23 @@ button{
 .listcontainer{
   display: flex;
   flex-direction: column;
+  border: 2px solid white;
+  margin: 10px;
+  padding: 5px;
 }
 .list{
   font-family: "Zen Kurenaido", San Serif;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  display: flex;
+  color: white;
+  font-family: "Zen Kurenaido", San Serif;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 25px;
 }
