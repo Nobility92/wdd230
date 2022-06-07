@@ -14,6 +14,8 @@ button.addEventListener('click', () => {
     myspan.textContent = mylist;
     btnlist.appendChild(btndelete);
     btndelete.textContent = 'X';
+    btndelete.style.color = 'red';
+    btndelete.style.fontSize = '20px';
     list.appendChild(btnlist);
 
     btndelete.addEventListener('click', () => {
