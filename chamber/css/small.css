@@ -170,8 +170,43 @@ nav ul.open{
 }
 .placeholder-spot1{
     background-color: #89A1EF;
-    border: 1px solid;
-    padding: 5px;
+    border: 1px solid; 
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 5px 5px #0B2545;
+}
+.placeholder-spot2{
+    background-color: #89A1EF;
+    border: 1px solid; 
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 5px 5px #0B2545;
+}
+.placeholder-spot3{
+    background-color: #89A1EF;
+    border: 1px solid; 
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 5px 5px #0B2545;
+}
+.uglogo{
+    height: 80px;
+    width: 80px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+.details{
+    margin-top: -15px;
+    padding: 3px;
 }
 
 .con{
