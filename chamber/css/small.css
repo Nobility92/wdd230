@@ -181,7 +181,7 @@ nav ul.open{
 }
 .placeholder-hero{
     grid-column: 2/4;
-    grid-row: 1/2;
+    grid-row: 1/3;
     position: relative;
     border: 1px solid;
     border-radius: 10px;
@@ -189,10 +189,18 @@ nav ul.open{
     background-color: #89A1EF;
     color: #FFFFFF;
 }
+.hero-head{
+    position: absolute;
+    left: 1em;
+    padding: 5px;
+    color: #0B2545;
+    font-size: 20px;
+
+}
 .btnsect{
     position: absolute;
-    top: 13em;
-    left: 13em;
+    bottom: 70px;
+    left: 16em;
    
 }
 .btnJoin{
@@ -200,6 +208,15 @@ nav ul.open{
     padding: 5px;
     color: #FFFFFF;
     position: absolute;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+}
+.btn-Join{
+    background-color: #0B2545;
+    padding: 5px;
+    color: #FFFFFF;
+    margin-top: 15px;
     height: 50px;
     width: 150px;
     border-radius: 10px;
