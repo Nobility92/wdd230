@@ -179,24 +179,44 @@ nav ul.open{
     background-color: #89A1EF;
     color: #FFFFFF;
 }
-.btnJoin{
-    background-color: #0B2545;
-    padding: 5px;
-    color: #FFFFFF;
-    margin-top: 20px;
-    height: 50px;
-    width: 150px;
-    border-radius: 10px;
-}
 .placeholder-hero{
     grid-column: 2/4;
-    grid-row: 1/3;
+    grid-row: 1/2;
+    position: relative;
     border: 1px solid;
     border-radius: 10px;
     box-shadow: 5px 5px 5px 5px #0B2545;
     background-color: #89A1EF;
     color: #FFFFFF;
 }
+.btnsect{
+    position: absolute;
+    top: 13em;
+    left: 13em;
+   
+}
+.btnJoin{
+    background-color: #0B2545;
+    padding: 5px;
+    color: #FFFFFF;
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+
+figure.hero-image{
+    width: 100%;
+    margin: 0;
+    height: 100%;
+}
+figure.hero-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
 .placeholder-new{
     grid-column: 2/4;
     grid-row: 3/4;
