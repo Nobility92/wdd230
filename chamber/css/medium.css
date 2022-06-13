@@ -1,4 +1,8 @@
-@media only screen and (min-width: 35rem){
+@media only screen and (max-width: 600px){
+    #home-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     nav button{
         display: block;
     }
