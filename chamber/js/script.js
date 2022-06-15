@@ -27,17 +27,16 @@ function toggleMenu(){
 const x = document.getElementById("hamburgerBtn")
 x.onclick = toggleMenu;
 
-var weekday = new Array(7);
-weekday[0] = "Sunday";
-weekday[1] = "Monday";
-weekday[2] = "Tuesday";
-weekday[3] = "Wednesday";
-weekday[4] = "Thurday";
-weekday[5] = "Friday";
-weekday[6] = "Saturday";
+// for the banner that displays every Monday and Tuesday
+const banner = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
+const forwed = '🤝🏼 Come join us for the chamber meet and greet Today at 7:00 p.m.';
+const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+const day = weekday[d.getDay()];
 
-var banner = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
-var day = weekday[now.getDay()];
-if (day = weekday[1] || weekday[2]){
+if (day == weekday[1] || day == weekday[2]){
     document.getElementById("banner").innerHTML = banner;
-}
+ } else if(day == weekday[3]){
+        document.getElementById("banner").innerHTML = forwed;
+    }else{
+        document.getElementById("banner").innerHTML = '';
+    }
