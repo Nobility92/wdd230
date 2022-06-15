@@ -1,6 +1,5 @@
 const datefield = document.querySelector(".date");
 
-
 // derive the current date using a date object
 const now = new Date();
 const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
@@ -28,3 +27,17 @@ function toggleMenu(){
 const x = document.getElementById("hamburgerBtn")
 x.onclick = toggleMenu;
 
+var weekday = new Array(7);
+weekday[0] = "Sunday";
+weekday[1] = "Monday";
+weekday[2] = "Tuesday";
+weekday[3] = "Wednesday";
+weekday[4] = "Thurday";
+weekday[5] = "Friday";
+weekday[6] = "Saturday";
+
+var banner = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
+var day = weekday[now.getDay()];
+if (day = weekday[1] || weekday[2]){
+    document.getElementById("banner").innerHTML = banner;
+}
