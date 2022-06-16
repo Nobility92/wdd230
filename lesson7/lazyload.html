@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Image</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,100;1,200;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="lazy.css"/>
+    
+</head>
+<body>
+   <main>
+       <div id="container">
+       <h1 class="head-format">Progressive Loading Image</h1>
+       <picture>
+            <img src="https://dummyimage.com/300x400/b500b5/0011ff.png&text=Place+Holder" data-src="https://placeimg.com/300/400/people" alt="people">
+       </picture>
+       <picture>
+           <img src="https://dummyimage.com/300x400/b500b5/0011ff.png&text=Place+Holder" data-src="https://picsum.photos/seed/picsum/300/400" alt="seed">
+    </picture>
+    <picture>
+            <img src="https://dummyimage.com/300x400/b500b5/0011ff.png&text=Place+Holder" data-src="http://placekitten.com/300/400" alt="kitten">
+    </picture>
+    <picture>
+        <img src="https://dummyimage.com/300x400/b500b5/0011ff.png&text=Place+Holder" data-src="https://placeimg.com/300/400/arch" alt="arch">
+    </picture>
+    <picture>
+        <img src="https://dummyimage.com/300x400/b500b5/0011ff.png&text=Place+Holder" data-src="https://placeimg.com/300/400/tech" alt="tech">
+    </picture>
+    <picture>
+        <img src="https://dummyimage.com/300x400/b500b5/0011ff.png&text=Place+Holder" data-src="https://placeimg.com/300/400/animals" alt="animal">
+    </picture>
+
+</div>
+
+   </main>
+   <script src="lazy.js"></script>
+</body>
+
+
+</html>
+
