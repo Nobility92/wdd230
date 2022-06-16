@@ -20,7 +20,7 @@
     <header>
         <div id="logo-area">
             <picture>
-                <img src="images/logo.png" class="logo" alt="logo">
+                <img src="images/logo.webp" class="logo" alt="logo">
             </picture>
             <section class="heading">
                 <h1 class="white">Abia State </h1>
@@ -53,9 +53,9 @@
         <div id="home-grid">
             <div class="placeholder-hero">
                 <h4 class="hero-head">ABIA STATE CHAMBER OF COMMERCE</h4>
-                <figure class="hero-image">
+                <picture class="hero-image">
                     <img src="images/wdd230-org.jpg" alt="business">
-                </figure>
+                </picture>
                 <section class="btnsect">
                     <button type="submit" class="btnJoin">Join The Chamber</button>
                 </section>
@@ -89,7 +89,9 @@
             
             <div class="placeholder-weather">
                 <h4>Weather</h4>
-                <p class="temp">Temperature: 10<sup>0</sup>C<br>Wind Speed: 2.5km/h <br>Wind Chill: N/A</p>
+                <p class="temp">Temperature: <span id="t">10</span><sup>o</sup>C</p>
+                <p class="temp">Wind Speed: <span id="s">4</span>mph</p> 
+                <p class="temp">Wind Chill: <span id="w"></span><sup>o</sup>F</p>
 
             </div>
             <div class="placeholder-join">
@@ -108,7 +110,7 @@
 <footer>
     <div id="logo-area1">
         <picture>
-            <img src="images/logo.png" class="logo1" alt="logo">
+            <img src="images/logo.webp" class="logo1" alt="logo">
         </picture>
         <section class="heading1">
             <h3 class="white" id="case">Abia State Chamber of Commerce</h3>
@@ -125,6 +127,7 @@
 </footer>
 </div>
 <script src="js/script.js"></script>
+<script src="js/windchill.js"></script>
 </body>
 
 
