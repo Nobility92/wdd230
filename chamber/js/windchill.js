@@ -1,10 +1,10 @@
-function windChill(temp, speed){
+function windChill(t, s){
     return;
 }
 
-let t = parseFloat(document.querySelector("#t").textContent);
-    let s = parseFloat(document.querySelector("#s").textContent);
-    let windchill = " ";
+let t = parseFloat(document.getElementById("t").innerHTML);
+    let s = parseFloat(document.getElementById("s").innerHTML);
+    let windchill;
 
     if (t < 50 && s > 3){
         windchill = windChill(t, s);
@@ -12,4 +12,4 @@ let t = parseFloat(document.querySelector("#t").textContent);
     }else{
         windchill = "N/A";
     }
-    document.querySelector("#w").innerHTML = windchill;
+    document.getElementById("w").innerHTML = windchill;
