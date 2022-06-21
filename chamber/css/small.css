@@ -352,3 +352,34 @@ picture.hero-image img{
     margin-top: -15px;
     font-size: 12px;
 }
+
+main #disco-grid{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1em;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+main picture  img{
+    height: 300px;
+    border-radius: 50px;
+}
+main img:hover{
+    border-radius: 5px 150px;
+    box-shadow: 0 0 50px #333;
+}
+
+.pic1{
+    
+}
+.p1{
+   
+}
+
+.pic2{
+    
+}
+.p2{
+    
+}
