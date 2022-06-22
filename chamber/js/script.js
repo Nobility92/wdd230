@@ -17,6 +17,7 @@ const d = new Date();
 let datetime = d.getFullYear()+'/'+d.getMonth()+'/'+d.getDate()+ '  ' + d.getHours()+':'+d.getMinutes()+':'+d.getSeconds();
 document.getElementById("update").innerHTML = datetime;
 
+//for hamburger menu
 
 function toggleMenu(){
     document.getElementById("primaryNav").classList.toggle("open");
@@ -71,18 +72,3 @@ if('IntersectionObserver' in window) {
     
         loadimg(img);
       }
-
-//for number of page visits and timestamp
-const todayDisplay = document.querySelector(".timestp");
-const visitDisplay = document.querySelector(".visit");
-
-let numVisits = Number(window.localStorage.getItem("visit-ls"));
-
-if( numVisits !== 0){
-    visitDisplay.textContent = numVisits;
-}else{
-    visitDisplay.textContent = "This is your first visit";
-}
-numVisits++;
-localStorage.setItem("visit-ls", numVisits);
-todayDisplay.textContent = Date.now();
