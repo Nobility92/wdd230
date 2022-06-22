@@ -360,16 +360,14 @@ picture.hero-image img{
     font-family: "Zen Kurenaido", San Serif;
 
 }
-main #disco-grid{
-    max-width: 100%;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1em;
-    border: 1px solid black;
-    margin-top: 20px;
+
+#disco-grid{
+    width: 100%;
+    
 }
 main picture  img{
-    height: 300px;
+    height: 350px;
+    width: 550px;
     border-radius: 50px;
 }
 main img:hover{
@@ -377,16 +375,27 @@ main img:hover{
     box-shadow: 0 0 50px #333;
 }
 
-.pic1{
+#one, #two, #three, #four, #five{
+    width: 100%;
+    height: 380px;
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
     
 }
-.p1{
-   
+.pic1, .pic2, .pic3, .pic4, .pic5{
+    padding: 5px;
+    flex: 45%;
+}
+.p1, .p2, .p3, .p4, .p5{
+    flex: 45%;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.cap{
+    font-family: "Cinzel", Serif;
+    text-align: center;
 }
 
-.pic2{
-    
-}
-.p2{
-    
-}
