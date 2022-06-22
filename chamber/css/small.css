@@ -352,7 +352,14 @@ picture.hero-image img{
     margin-top: -15px;
     font-size: 12px;
 }
-
+#vis-time{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    font-family: "Zen Kurenaido", San Serif;
+    border: 1px solid;
+}
 main #disco-grid{
     max-width: 100%;
     display: grid;
