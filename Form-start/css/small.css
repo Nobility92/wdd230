@@ -59,6 +59,60 @@ main {
     min-height: 20rem;
 }
 
+/*-------------FORM--------------*/
+
+form fieldset{
+    margin: 2rem 0;
+    border: thin solid navy;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+form legend{
+    color: navy;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    color: red;
+    font-size: .8rem;
+}
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: darkgray;
+}
+form label.sbs{
+    display: block;
+    padding: .75rem;
+    color: #555;
+}
+
+form input.submitBtn{
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+form label.top input:required{
+    border-left: red solid 6px;
+}
+form label.top input:required:valid{
+    border-left: green solid 6px;
+}
+
 
 /*----------- FOOTER --------------*/
 footer {
