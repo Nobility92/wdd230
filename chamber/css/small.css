@@ -398,12 +398,15 @@ main img:hover{
     font-family: "Cinzel", Serif;
     text-align: center;
 }
+
+#joinpage{
+    margin: 0 100px;
+}
 form fieldset{
     margin: 2rem 0;
     border: thick solid #071136;
     border-radius: 10px;
     padding: .5rem 2%;
-    width: 100%;
 }
 form legend{
     color: #071136;
@@ -412,9 +415,10 @@ form legend{
 }
 form label.top {
     display: block;
-    padding-top: 1rem;
+    padding: .75rem;
     color: #071136;
     font-size: 1rem;
+
 }
 form label.top input{
     
@@ -424,6 +428,33 @@ form label.top input{
     border-radius: 4px;
     padding: .75rem;
     color: #555;
-    
+    width: 100%;
+    max-width: 20rem;
     background-color: darkgray;
+}
+form label.sbs{
+    display: block;
+    padding: .75rem;
+    color: #071136;
+    font-weight: bolder;
+}
+form p{
+    margin-left: 50px;
+    margin-top: 5px;
+    text-align: justify;
+}
+form label.top textarea{
+    height: 150px;
+    width: 50rem;
+    border: 2px solid #071136;
+}
+form input.submitBtn{
+    border: none;
+    background-color: #071136;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
 }
