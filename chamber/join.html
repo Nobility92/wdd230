@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage | ABSCOFC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,100;1,200;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/small.css"/>
+    <link rel="stylesheet" href="css/medium.css"/>
+    <link rel="stylesheet" href="css/large.css"/>
+    
+    
+</head>
+<body>
+    <div id="container">
+    <header>
+        <div id="logo-area">
+            <picture>
+                <img src="images/logo.webp" class="logo" alt="logo">
+            </picture>
+            <section class="heading">
+                <h1 class="white">Abia State </h1>
+                <h3 class="white1">Chamber of Commerce</h3>
+            </section>
+        </div>
+        
+        <div class="social">
+          <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png" class="fb" alt="facebook image"></a>  
+            <a href="https://www.linkedin.com" target="_blank"><img src="images/linkedin.png" class="ln" alt="linkedin image"></a>
+        </div>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="discovery.html">Discovery</a></li>
+                <li><a href="">Directory</a></li>
+                <li><a href="">Join</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="banner"></div>
+        <div class="date">
+            
+        </div>
+       
+    </header>
+    
+    <main>
+        <div id="home-grid">
+            <form method="get" action="/wdd230/Form-start/thanks.html">
+                <fieldset>
+                    <legend>Basic Information</legend>
+                    <label> First Name*<input type="text" name="fname" required></label>
+                    <label> Last Name*<input type="text" name="lname" required></label>
+                    <label> Title<input type="text" name="title"></label>
+                    <label> Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label> Phone Number*<input type="tel" name="phone" placeholder="123444555" required></label>
+                    <label> Business Name*<input type="text" name="busName" required></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Membership Level</legend>
+                    <label><input type="radio" name="membership" value="np"> NP Membership </label>
+                    <p> This level is for Non-profit organizations and they are <strong>free of charge</strong>.  They as well get all the whole benefit.</p>
+
+                    <label><input type="radio" name="membership" value="bronze"> Bronze Membership </label>
+                    <p> 
+                        Bronze Membership gives you access to special monthly training events and 2 round table seat held by the chamber. <br><br>
+                    Cost: $15/yr</p>
+
+                    
+                    <label><input type="radio" name="membership" value="silver"> Silver Membership </label>
+                    <p> Silver membership gives you access to special monthly training events, 5 round table seat plus free advertizing on our homepage. <br><br>
+                    Cost: $25/yr</p>
+
+                    <label><input type="radio" name="membership" value="gold"> Gold Membership </label>
+                    <p> Gold membership gives you access to special monthly training events, 10 round table seat plus free advertizing on our homepage and events. <br><br>
+                    Cost: $35/yr</p>
+                </fieldset>
+                <fieldset>
+                    <legend> Describe Business</legend>
+                    <label>Description<textarea id="descibe" name="describe" maxlength="250" placeholder="Please describe you business"></textarea></label>
+                </fieldset>
+                
+                <input type="submit" value="Join Chamber" class="submitBtn">
+
+            </form>
+    
+        
+        
+
+        </div>
+    
+</main>
+<footer>
+    <div id="logo-area1">
+        <picture>
+            <img src="images/logo.webp" class="logo1" alt="logo">
+        </picture>
+        <section class="heading1">
+            <h3 class="white" id="case">Abia State Chamber of Commerce</h3>
+            <p class="white1">10 Aba owerri Rd, <br> Aba, Abia State.</p>
+        </section>
+        <div class="heading2">
+            <p class="con">nwa21004@byui.edu <br> +2347069161830</p>
+        </div>
+    </div>
+    <div class="foot">
+        <p class="foot1">&copy; 2022 Abia State Chamber of Commerce .:|:. Nwaokonko, Uchenna Henry .:|:. WDD 230 Project</p>
+        <p class="update">Last Updated: <span id="update"></span></p>  
+    </div>
+</footer>
+</div>
+<script src="js/script.js"></script>
+<script src="js/windchill.js"></script>
+</body>
+
+
+</html>
+
