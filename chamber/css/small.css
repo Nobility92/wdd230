@@ -398,7 +398,12 @@ main img:hover{
     font-family: "Cinzel", Serif;
     text-align: center;
 }
-
+#thanks{
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+}
 #joinpage{
     margin: 0 100px;
 }
@@ -457,4 +462,10 @@ form input.submitBtn{
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
+}
+form label.top input:required{
+    border-left: red solid 6px;
+}
+form label.top input:required:valid{
+    border-left: green solid 6px;
 }
