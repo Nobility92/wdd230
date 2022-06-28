@@ -398,4 +398,32 @@ main img:hover{
     font-family: "Cinzel", Serif;
     text-align: center;
 }
-
+form fieldset{
+    margin: 2rem 0;
+    border: thick solid #071136;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    width: 100%;
+}
+form legend{
+    color: #071136;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+form label.top {
+    display: block;
+    padding-top: 1rem;
+    color: #071136;
+    font-size: 1rem;
+}
+form label.top input{
+    
+    display: block;
+    font-size: 1rem;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    
+    background-color: darkgray;
+}

@@ -54,12 +54,12 @@
             <form method="get" action="/wdd230/Form-start/thanks.html">
                 <fieldset>
                     <legend>Basic Information</legend>
-                    <label> First Name*<input type="text" name="fname" required></label>
-                    <label> Last Name*<input type="text" name="lname" required></label>
-                    <label> Title<input type="text" name="title"></label>
-                    <label> Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                    <label> Phone Number*<input type="tel" name="phone" placeholder="123444555" required></label>
-                    <label> Business Name*<input type="text" name="busName" required></label>
+                    <label class="top"> First Name*<input type="text" name="fname" required></label>
+                    <label class="top"> Last Name*<input type="text" name="lname" required></label>
+                    <label class="top"> Title<input type="text" name="title"></label>
+                    <label class="top"> Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="top"> Phone Number*<input type="tel" name="phone" placeholder="123444555" required></label>
+                    <label class="top"> Business Name*<input type="text" name="busName" required></label>
                 </fieldset>
 
                 <fieldset>
@@ -85,8 +85,11 @@
                     <legend> Describe Business</legend>
                     <label>Description<textarea id="descibe" name="describe" maxlength="250" placeholder="Please describe you business"></textarea></label>
                 </fieldset>
+              
+                    <input type="submit" value="Join Chamber" class="submitBtn">
                 
-                <input type="submit" value="Join Chamber" class="submitBtn">
+
+                
 
             </form>
     
