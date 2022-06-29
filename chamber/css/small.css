@@ -412,6 +412,7 @@ form fieldset{
     border: thick solid #071136;
     border-radius: 10px;
     padding: .5rem 2%;
+    width: 100%;
 }
 form legend{
     color: #071136;
@@ -433,7 +434,6 @@ form label.top input{
     border-radius: 4px;
     padding: .75rem;
     color: #555;
-    width: 100%;
     max-width: 20rem;
     background-color: darkgray;
 }
@@ -450,7 +450,7 @@ form p{
 }
 form label.top textarea{
     height: 150px;
-    width: 50rem;
+    width: 100%;
     border: 2px solid #071136;
 }
 form input.submitBtn{
