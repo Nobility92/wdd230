@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Zen+Kurenaido&display=swap");
+
+body {
+    font-size: 16px;
+    font-family: 'Zen kurenaido', sans-serif;
+  }
+
+  header,
+main,
+footer {
+  margin: 1rem;
+  text-align: center;
+}
+
+h1{
+    text-shadow: 0 0 20px #001011;
+}
+
+h2, p{
+    text-align: center;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    background-color: #3A4454;
+    box-shadow: 5px 5px 5px 10px #3A4454;
+}
+
+section{
+    border: 1px solid black;
+    margin: 5px;
+    background-color: #82968C;
+}
+
+footer{
+    font-size: 20px;
+    font-weight: bolder;
+
+}
