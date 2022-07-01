@@ -1,4 +1,4 @@
-const direct = 'data.json';
+const direct = 'https://nobility92.github.io/wdd230/chamber/data.json';
 const company = document.querySelector('#company');
 
 async function getCompany(){
