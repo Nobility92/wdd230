@@ -1,5 +1,5 @@
 const direct = 'https://nobility92.github.io/wdd230/chamber/data.json';
-const company = document.querySelector('#company');
+const comp = document.querySelector('#company');
 
 async function getCompany(){
     let response = await fetch(direct);
@@ -24,13 +24,13 @@ async function getCompany(){
       p.innerHTML = `Address: ${company.address} <br>Phone Number: ${company.phoneNumber} <br> Website: ${company.website}`;
      
       
-      image.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname} - ${prophet.order} Latter-day President`);
+     // image.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname} - ${prophet.order} Latter-day President`);
   
       card.append(image);
       card.append(h2);
       card.append(p);
       
-      company.append(card);
+      comp.append(card);
   
     });
   }
