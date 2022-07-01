@@ -1,0 +1,78 @@
+{ 
+    "company": [
+        {
+            "name": "Beauty Coven",
+            "address": "20b Aba Owerri Rd",
+            "phoneNumber": "07069161830",
+            "website": "www.beautycoven.com",
+            "level": "Bronze",
+            "logo": "images/logo.jpg"
+        },
+        {
+            "name": "PAY4ME",
+            "address": "30 Faulks Rd",
+            "phoneNumber": "0803546168",
+            "website": "www.pay4me.app",
+            "level": "Silver",
+            "logo": "images/Asset 7.png"
+        },
+        {
+            "name": "UG Media",
+            "address": "10A Immaculate street",
+            "phoneNumber": "08155994455",
+            "website": "www.ugmedia.com",
+            "level": "Bronze",
+            "logo": "images/UG MEDIA 1_1@3x.png"
+        },
+        {
+            "name": "Neigbourhood Bread",
+            "address": "Leventis Rd, Mokola",
+            "phoneNumber": "09044455566",
+            "website": null,
+            "level": "Gold",
+            "logo": "images/bakeryGD.png"
+        },
+        {
+            "name": "Minas Touch Make Over",
+            "address": "10A Sango street",
+            "phoneNumber": "08099772341",
+            "website": "www.minastouch.com",
+            "level": "Silver",
+            "logo": "images/beauty-services-SIL.webp"
+        },
+        {
+            "name": "Chesire Home",
+            "address": "Poly Road, Sango",
+            "phoneNumber": "07022334455",
+            "website": "www.chesirehome.com",
+            "level": "NP",
+            "logo": "images/healthcare_NP.webp"
+        },
+        {
+            "name": "Oriade Furnitures",
+            "address": "3B Okeado Rd, Challenge",
+            "phoneNumber": "09144556699",
+            "website": "www.oriadefurnitures.biz",
+            "level": "Bronze",
+            "logo": "images/carpentyBR.webp"
+        },
+        {
+            "name": "Pearl's Fabric",
+            "address": "10B old Bodija, Sango ",
+            "phoneNumber": "08155994455",
+            "website": "www.pearlfabrics.com",
+            "level": "Silver",
+            "logo": "images/sewingSL.webp"
+        },
+        {
+            "name": "Daris Image",
+            "address": "10A Immaculate street",
+            "phoneNumber": "08188335544",
+            "website": "www.darimage.com",
+            "level": "Gold",
+            "logo": "images/photoGD.webp"
+        }
+
+]
+
+}
