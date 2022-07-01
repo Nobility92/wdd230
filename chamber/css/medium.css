@@ -3,5 +3,23 @@
     nav button{
         display: block;
     }
+    .btn-Join{
+        background-color: #0B2545;
+        padding: 10px;
+        color: #FFFFFF;
+        height: 50px;
+        width: 50%;
+        border-radius: 10px;
+    }
+    .btnJoin{
+        background-color: #0B2545;
+        padding: 5px;
+        color: #FFFFFF;
+        position: absolute;
+        left: 45em;
+        height: 50px;
+        width: 150px;
+        border-radius: 10px;
+    }
 
 }
