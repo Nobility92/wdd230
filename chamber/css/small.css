@@ -18,7 +18,7 @@ header, footer{
     box-shadow: 5px 10px 5px #89A1EF;
 }
 
-h1, h2, h3, h4{
+ body h1, h2, h3, h4, h5, h6{
     font-family: "Cinzel", Serif;
 }
 
@@ -28,6 +28,7 @@ body p{
 }
 .white, .white1{
     color: #FFFFFF;
+    
 }
 .white1{
     margin-top: -20px;
@@ -168,13 +169,13 @@ nav ul.open{
 }
 .career{
     padding: 5px;
-    font-size: large;
+    font-size: 15px;
 }
 .placeholder-weather{
    /* grid-column: 1/2;*/
    margin-top: 15px;
     text-align: center;
-    font-size: large;
+    font-size: 15px;
     border: 1px solid;
     border-radius: 10px;
     box-shadow: 5px 5px 5px 5px #0B2545;
@@ -217,7 +218,7 @@ nav ul.open{
     padding: 5px;
     color: #FFFFFF;
     position: absolute;
-    right: 1em;
+    right: 50%;
     height: 50px;
     width: 100px;
     border-radius: 10px;
@@ -256,12 +257,12 @@ picture.hero-image img{
     color: #FFFFFF;
 }
 .new-release{
-    margin-top: 80px;
+    margin-top: 30px;
     padding: 5px;
     font-size: 40px;
 }
 .discover{
-    font-size: large;
+    font-size: 15px;
     margin-top: 40px;
     padding: 5px;
 }
@@ -279,7 +280,7 @@ picture.hero-image img{
     border: 1px solid; 
     margin: 20px;
     text-align: center;
-    font-size: large;
+    font-size: 15px;
     justify-content: center;
     color: #FFFFFF;
     border-radius: 5px;
@@ -290,7 +291,7 @@ picture.hero-image img{
     border: 1px solid; 
     margin: 20px;
     text-align: center;
-    font-size: large;
+    font-size: 15px;
     justify-content: center;
     color: #FFFFFF;
     border-radius: 5px;
@@ -301,7 +302,7 @@ picture.hero-image img{
     border: 1px solid; 
     margin: 20px;
     text-align: center;
-    font-size: large;
+    font-size: 15px;
     justify-content: center;
     color: #FFFFFF;
     border-radius: 5px;
@@ -322,7 +323,7 @@ picture.hero-image img{
 .con{
     color: #FFFFFF;
     font-size: large;
-    margin-left: 100px;
+    margin-left: 30px;
 }
 .date{
     background-color: #071136;
@@ -376,7 +377,7 @@ main picture  img{
     width: 550px;
     border-radius: 50px;
 }
-picture img:hover{
+picture.pic1 img:hover{
     border-radius: 5px 150px;
     box-shadow: 0 0 50px #333;
 }
@@ -391,7 +392,7 @@ picture img:hover{
     
     
 }
-.pic1, .pic2, .pic3, .pic4, .pic5{
+.pic1{
     padding: 5px;
     flex: 45%;
 }
