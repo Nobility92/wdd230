@@ -30,7 +30,7 @@ async function getCompany(){
       h6.innerHTML = `${details.website}`;
       p.innerHTML = `<strong>${details.level} </strong>`;
       //card.style.backgroundColor = '#89A1EF';
-      card.style.border = '1px solid #333';
+      card.style.border = '2px solid #89A1EF';
       h3.style.textShadow = '0 0 20px #001011';
       card.style.padding = '.75rem';
       h6.style.fontSize = '15px';

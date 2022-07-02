@@ -55,6 +55,10 @@
         justify-content: space-between;
         margin: 30px;
         text-align: left; 
+        background-color: #89A1EF;
+    }
+    .grid section{
+        background-color: #89A1EF;
     }
  
 

@@ -513,6 +513,7 @@ section img{
 .grid section {
 	text-align: center;
     margin-top: 1em;
+    border-radius: 10px;
     
 }
 
