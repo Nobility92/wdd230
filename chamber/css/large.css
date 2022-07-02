@@ -42,5 +42,20 @@
         grid-row: 1/4;
         margin: 0;
     }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 1em;
+        align-items: center;
+    }
+    .list section {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 30px;
+        text-align: left; 
+    }
+ 
 
 }
