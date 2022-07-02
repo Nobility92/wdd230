@@ -34,10 +34,6 @@ async function getCompany(){
       h3.style.textShadow = '0 0 20px #001011';
       card.style.padding = '.75rem';
       h6.style.fontSize = '15px';
-      
-
-      
-     // image.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname} - ${prophet.order} Latter-day President`);
   
       card.append(image);
       card.append(h3);
