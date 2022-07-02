@@ -20,6 +20,9 @@
         width: 150px;
         border-radius: 10px;
     }
+    .btnJoin:hover, .btn-Join:hover{
+        background-color: #89A1EF;
+    }
 
     #home-grid{
         display: grid;
