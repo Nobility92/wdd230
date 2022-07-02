@@ -488,10 +488,52 @@ section img{
     text-align: center;
     margin-top: 50px;
 }
+.menu {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #bbb;
+	text-align: center;
+}
+.menu button {
+	padding: 1rem;
+}
 
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	align-items: center;
+}
 
-section h3{
-
-  text-shadow: 0 0 20px #001011;
+.list {
+	display: flex;
+	flex-direction: column;
+}
+.list section {
+	display: flex;
+	align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px 5px;
+    text-align: left;
     
+}
+
+.grid section {
+	flex-direction: column;
+	text-align: center;
+}
+
+.grid section > * {
+	margin: 0.1rem;
+}
+
+.list section {
+	flex-direction: row;
+	justify-content: left;
+}
+
+.list section > * {
+	margin: 0 1rem;
+	text-align: left;
 }

@@ -16,15 +16,23 @@ async function getCompany(){
     data.company.forEach(details => {
       let card = document.createElement('section');
       let h3 = document.createElement('h3');
+      let h4 = document.createElement('h4');
+      let h5 = document.createElement('h5');
+      let h6 = document.createElement('h6');
       let p = document.createElement('p');
       let image = document.createElement('img');
 
       image.setAttribute('src', details.logo);
       image.setAttribute('alt', `picture of ${details.name}`);
       h3.innerHTML = `${details.name}`;
-      p.innerHTML = `<strong>Address: ${details.address} <br>Phone Number: ${details.phoneNumber} <br> Website: ${details.website}</strong>`;
-      card.style.backgroundColor = '#89A1EF';
+      h4.innerHTML = `${details.address}`;
+      h5.innerHTML = `${details.phoneNumber}`;
+      h6.innerHTML = `${details.website}`;
+      p.innerHTML = `<strong>${details.level} </strong>`;
+      //card.style.backgroundColor = '#89A1EF';
       card.style.border = '1px solid #333';
+      h3.style.textShadow = '0 0 20px #001011';
+      card.style.padding = '.75rem';
       
 
       
@@ -32,6 +40,9 @@ async function getCompany(){
   
       card.append(image);
       card.append(h3);
+      card.append(h4);
+      card.append(h5);
+      card.append(h6);
       card.append(p);
       
       comp.append(card);
@@ -39,3 +50,24 @@ async function getCompany(){
     });
   }
   getCompany();
+
+  //for the grid and list view
+
+  const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+//const display = document.querySelector("#company");
+
+// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
+
+gridbutton.addEventListener("click", () => {
+	// example using arrow function
+	comp.classList.add("grid");
+	comp.classList.remove("list");
+});
+
+listbutton.addEventListener("click", showList); // example using defined function
+
+function showList() {
+	comp.classList.add("list");
+	comp.classList.remove("grid");
+}

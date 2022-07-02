@@ -6,7 +6,7 @@
             "phoneNumber": "07069161830",
             "website": "www.beautycoven.com",
             "level": "Bronze",
-            "logo": "https://github.com/Nobility92/wdd230/tree/main/chamber/images/logo.jpg"
+            "logo": "https://nobility92.github.io/wdd230/chamber/images/logo.jpg"
         },
         {
             "name": "PAY4ME",
@@ -14,7 +14,7 @@
             "phoneNumber": "0803546168",
             "website": "www.pay4me.app",
             "level": "Silver",
-            "logo": "https://github.com/Nobility92/wdd230/blob/main/chamber/images/Asset%207.png"
+            "logo": "https://nobility92.github.io/wdd230/chamber/images/Asset%207.png"
         },
         {
             "name": "UG Media",
@@ -22,7 +22,7 @@
             "phoneNumber": "08155994455",
             "website": "www.ugmedia.com",
             "level": "Bronze",
-            "logo": "https://github.com/Nobility92/wdd230/blob/main/chamber/images/UG%20MEDIA%201_1%403x.png"
+            "logo": "https://Nobility92.github.io/wdd230/chamber/images/UG%20MEDIA%201_1%403x.png"
         },
         {
             "name": "Neigbourhood Bread",
@@ -30,7 +30,7 @@
             "phoneNumber": "09044455566",
             "website": null,
             "level": "Gold",
-            "logo": "https://github.com/Nobility92/wdd230/blob/main/chamber/images/bakeryGD.png"
+            "logo": "https://Nobility92.github.io/wdd230/chamber/images/bakeryGD.png"
         },
         {
             "name": "Minas Touch Make Over",
@@ -38,7 +38,7 @@
             "phoneNumber": "08099772341",
             "website": "www.minastouch.com",
             "level": "Silver",
-            "logo": "https://github.com/Nobility92/wdd230/blob/main/chamber/images/bakeryGD.png"
+            "logo": "https://Nobility92.github.io/wdd230/chamber/images/bakeryGD.png"
         },
         {
             "name": "Chesire Home",
@@ -46,7 +46,7 @@
             "phoneNumber": "07022334455",
             "website": "www.chesirehome.com",
             "level": "NP",
-            "logo": "https://github.com/Nobility92/wdd230/blob/main/chamber/images/healthcare_NP.webp"
+            "logo": "https://Nobility92.github.io/wdd230/chamber/images/healthcare_NP.webp"
         },
         {
             "name": "Oriade Furnitures",
@@ -54,7 +54,7 @@
             "phoneNumber": "09144556699",
             "website": "www.oriadefurnitures.biz",
             "level": "Bronze",
-            "logo": "https://github.com/Nobility92/wdd230/blob/main/chamber/images/carpentryBR.webp"
+            "logo": "https://Nobility92.github.io/wdd230/chamber/images/carpentryBR.webp"
         },
         {
             "name": "Pearl's Fabric",
@@ -62,7 +62,7 @@
             "phoneNumber": "08155994455",
             "website": "www.pearlfabrics.com",
             "level": "Silver",
-            "logo": "https://github.com/Nobility92/wdd230/blob/main/chamber/images/sewingSIL.webp"
+            "logo": "https://Nobility92.github.io/wdd230/chamber/images/sewingSIL.webp"
         },
         {
             "name": "Daris Image",
@@ -70,7 +70,7 @@
             "phoneNumber": "08188335544",
             "website": "www.darimage.com",
             "level": "Gold",
-            "logo": "https://github.com/Nobility92/wdd230/blob/main/chamber/images/PhotoGD.webp"
+            "logo": "https://Nobility92.github.io/wdd230/chamber/images/PhotoGD.webp"
         }
 
 ]
