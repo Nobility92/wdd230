@@ -376,7 +376,7 @@ main picture  img{
     width: 550px;
     border-radius: 50px;
 }
-main img:hover{
+picture img:hover{
     border-radius: 5px 150px;
     box-shadow: 0 0 50px #333;
 }
@@ -474,4 +474,24 @@ form label.top input:required{
 }
 form label.top input:required:valid{
     border-left: green solid 6px;
+}
+
+section img{
+        height: 100px;
+        width: 150px;
+
+}
+#company{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1em;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+section h3{
+
+  text-shadow: 0 0 20px #001011;
+    
 }

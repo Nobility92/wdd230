@@ -15,19 +15,23 @@ async function getCompany(){
   function buildcompany(data){
     data.company.forEach(details => {
       let card = document.createElement('section');
-      let h2 = document.createElement('h2');
+      let h3 = document.createElement('h3');
       let p = document.createElement('p');
       let image = document.createElement('img');
 
-      image.setAttribute('src', company.logo);
-      h2.innerHTML = `${company.name}`;
-      p.innerHTML = `Address: ${company.address} <br>Phone Number: ${company.phoneNumber} <br> Website: ${company.website}`;
-     
+      image.setAttribute('src', details.logo);
+      image.setAttribute('alt', `picture of ${details.name}`);
+      h3.innerHTML = `${details.name}`;
+      p.innerHTML = `<strong>Address: ${details.address} <br>Phone Number: ${details.phoneNumber} <br> Website: ${details.website}</strong>`;
+      card.style.backgroundColor = '#89A1EF';
+      card.style.border = '1px solid #333';
+      
+
       
      // image.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname} - ${prophet.order} Latter-day President`);
   
       card.append(image);
-      card.append(h2);
+      card.append(h3);
       card.append(p);
       
       comp.append(card);
