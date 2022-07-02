@@ -86,5 +86,8 @@
         margin-top: 40px;
         
     }
+    .submitBtn:hover{
+        background-color: #89A1EF;
+    }
 
 }
