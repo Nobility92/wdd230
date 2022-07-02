@@ -42,6 +42,13 @@
         grid-row: 1/4;
         margin: 0;
     }
+    form fieldset{
+        margin: 2rem;
+    }
+
+    form label.top input{
+        width: 100%;   
+    }
     .grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
