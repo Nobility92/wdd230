@@ -22,9 +22,9 @@ async function apiFetch(apiUrl){
 function displayResults(weatherdata){
     temp.innerHTML = `<strong>${weatherdata.main.temp.toFixed(1)}</strong>`;
     speed.innerHTML = `${weatherdata.wind.speed}`;
-    const iconsrc = `https://openweathermap.org/img/w/${weatherdata.weather[0].icon}.png`;
+    weatherIcon = `https://openweathermap.org/img/w/${weatherdata.weather[0].icon}.png`;
     wcondition.innerHTML = weatherdata.weather[0].description;
-    weatherIcon.setAttribute('src', iconsrc);
+    weatherIcon.setAttribute('src', weatherIcon);
     weatherIcon.setAttribute('alt', wcondition);
     
    const cap = wcondition.split(" ");
