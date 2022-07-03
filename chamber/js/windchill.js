@@ -26,6 +26,7 @@ function displayResults(weatherdata){
     wcondition.innerHTML = weatherdata.weather[0].description;
     weatherIcon.setAttribute('src', weatherIcon);
     weatherIcon.setAttribute('alt', wcondition);
+
     
    const cap = wcondition.split(" ");
 
