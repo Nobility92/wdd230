@@ -24,7 +24,7 @@ function displayResults(weatherdata){
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     
-    cap = desc.split(" ");
+    const cap = desc.split(" ");
 
     for (var i = 0; i < cap.length; i++) {
         cap[i] = cap[i][0].toUpperCase() + cap[i].substr(1);
