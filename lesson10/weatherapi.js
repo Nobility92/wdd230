@@ -23,7 +23,14 @@ function displayResults(weatherdata){
     const desc = weatherdata.weather[0].description;
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
+    
+    cap = desc.split(" ");
 
-    captionDesc.innerHTML = desc;
+    for (var i = 0; i < cap.length; i++) {
+        cap[i] = cap[i][0].toUpperCase() + cap[i].substr(1);
+    }
+    captionDesc.innerHTML = cap;
+    
 
 }
+
