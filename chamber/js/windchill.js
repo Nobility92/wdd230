@@ -22,18 +22,13 @@ async function apiFetch(apiUrl){
 function displayResults(weatherdata){
     temp.innerHTML = `<strong>${weatherdata.main.temp.toFixed(1)}</strong>`;
     speed.innerHTML = `${weatherdata.wind.speed}`;
-    weatherIcon = `https://openweathermap.org/img/w/${weatherdata.weather[0].icon}.png`;
-    wcondition.innerHTML = weatherdata.weather[0].description;
-    weatherIcon.setAttribute('src', weatherIcon);
-    weatherIcon.setAttribute('alt', wcondition);
+    const iconsrc = `https://openweathermap.org/img/w/${weatherdata.weather[0].icon}.png`;
+    wcondition.innerHTML = `<strong>${weatherdata.weather[0].description}</strong>`;
+    weatherIcon.setAttribute('src', iconsrc);
+    weatherIcon.setAttribute('alt', 'weather condition');
 
-    
-   const cap = wcondition.split(" ");
 
-    for (var i = 0; i < cap.length; i++) {
-        cap[i] = cap[i].toUpperCase() + cap[i].slice(1);
-    }
-    wcondition.innerHTML = cap;
+    weatherIcon.innerHTML = wcondition ;
     
 
 }
