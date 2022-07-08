@@ -155,7 +155,7 @@ nav ul.open{
     border-radius: 10px;
     box-shadow: 5px 5px 5px 5px #0B2545;
     background-color: #89A1EF;
-    color: #FFFFFF;
+    color: black;
 }
 .placeholder-hero{
     /*grid-column: 2/4;
@@ -180,7 +180,7 @@ nav ul.open{
     border-radius: 10px;
     box-shadow: 5px 5px 5px 5px #0B2545;
     background-color: #89A1EF;
-    color: #FFFFFF;
+    color: black;
 }
 
 .temp{
@@ -195,7 +195,7 @@ nav ul.open{
     border-radius: 10px;
     box-shadow: 5px 5px 5px 5px #0B2545;
     background-color: #89A1EF;
-    color: #FFFFFF;
+    color: black;
 }
 
 
@@ -254,7 +254,7 @@ picture.hero-image img{
     border-radius: 10px;
     box-shadow: 5px 5px 5px 5px #0B2545;
     background-color: #89A1EF;
-    color: #FFFFFF;
+    color: black;
 }
 .new-release{
     margin-top: 30px;
@@ -318,6 +318,7 @@ picture.hero-image img{
 .details{
     margin-top: -15px;
     padding: 3px;
+    color: black;
     
 }
 
