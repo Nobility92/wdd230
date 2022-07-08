@@ -68,3 +68,5 @@ function showList() {
 	comp.classList.add("list");
 	comp.classList.remove("grid");
 }
+//for spotlight
+
