@@ -10,7 +10,7 @@
             "groundbreaking": "23 February 2002",
             "dedication": "7 August 2005",
             "closure": ["Saturday, 20 August 2022", "Monday, 5 September 2022 - Monday, 2 January 2023"],
-            "image": "https://github.com/Nobility92/wdd230/blob/main/temple/images/aba_nigeria_temple_lds.jpg?raw=true"
+            "image": "https://Nobility92.github.io/wdd230/temple/images/aba_nigeria.jpg"
 
         },
         {
@@ -22,7 +22,8 @@
             "announced":"16 February 1998",
             "groundbreaking": "16 November 2001",
             "dedication": "11 January 2004",
-            "closure": ["Saturday, 20 August 2022", "Tuesday, 13 September 2022 - Monday, 26 September 2022", "Sunday, 25 December 2022 - Monday, 26 December 2022"] 
+            "closure": ["Saturday, 20 August 2022", "Tuesday, 13 September 2022 - Monday, 26 September 2022", "Sunday, 25 December 2022 - Monday, 26 December 2022"],
+            "image": "https://Nobility92.github.io/wdd230/temple/images/accra_ghana.jpg" 
         },
         {
             "name": "Johannesburg South Africa Temple",
@@ -33,7 +34,8 @@
             "announced":"1 April 1981",
             "groundbreaking": "27 November 1982",
             "dedication": "24 August 1985",
-            "closure": ["Tuesday, 9 August 2022", "Monday, 15 August 2022 - Monday, 14 November 2022", "Friday, 16 December 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"] 
+            "closure": ["Tuesday, 9 August 2022", "Monday, 15 August 2022 - Monday, 14 November 2022", "Friday, 16 December 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"],
+            "image": "https://Nobility92.github.io/wdd230/temple/images/aba_nigeria.jpg" 
         },
         {
             "name": "Fukuoka Japan Temple",
