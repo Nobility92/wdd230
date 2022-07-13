@@ -1,0 +1,38 @@
+@media only screen and (min-width: 32.5em){
+    nav button{
+        display: none;
+    }
+    nav ul#primaryNav{
+        display: flex;
+        justify-content: center;
+        margin-left: 2vw;
+    }
+    nav ul li a{
+        border: none;
+    }
+    #logo-area{
+        display: flex;
+    }
+    #logo-area1{
+        display: flex;
+    }
+    header h1{
+        font-size: 35px;
+        margin-top: 40px;
+    }
+    #foot{
+        display: flex;
+    }
+    .white{
+        font-size: 30px;
+    }
+    iframe{
+        margin-right: 1rem;
+        margin-top: -40px;
+      }
+      .social{
+        margin-right: 2rem;
+        margin-top: 40px;
+      }
+
+}

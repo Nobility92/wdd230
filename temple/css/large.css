@@ -1,0 +1,15 @@
+@media only screen and (min-width: 64em){
+    nav ul#primaryNav{
+        justify-content: left;
+        margin-left: 2vw;
+    }
+    header h1{
+        font-size: 3rem;
+    }
+    .white{
+        font-size: 3rem;
+    }
+    footer section{
+        margin-left: 10rem;
+    }
+}

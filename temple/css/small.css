@@ -102,7 +102,6 @@ footer{
     color: #ffffff;
     padding: 5px;
     text-align: center;
-    font-size: 15px;
   }
   footer img{
     width:200px;
@@ -118,4 +117,10 @@ footer{
     width: 250px;
     height: 100px;
     padding-left: 10px;
+  }
+  .foot1{
+    font-size: 15px;
+  }
+  .update{
+    font-size: 15px;
   }
