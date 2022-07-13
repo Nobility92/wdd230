@@ -35,7 +35,7 @@
             "groundbreaking": "27 November 1982",
             "dedication": "24 August 1985",
             "closure": ["Tuesday, 9 August 2022", "Monday, 15 August 2022 - Monday, 14 November 2022", "Friday, 16 December 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"],
-            "image": "https://Nobility92.github.io/wdd230/temple/images/aba_nigeria.jpg" 
+            "image": "https://Nobility92.github.io/wdd230/temple/images/johannesburg.jpg" 
         },
         {
             "name": "Fukuoka Japan Temple",
@@ -46,7 +46,8 @@
             "announced":"7 May 1998",
             "groundbreaking": "20 March 1999",
             "dedication": "11 June 2000",
-            "closure": ["Monday, 1 August 2022 - Wednesday, 30 November 2022", "Saturday, 24 December 2022", "Friday, 30 December 2022 (Limited Operations)", "Saturday, 31 December 2022"] 
+            "closure": ["Monday, 1 August 2022 - Wednesday, 30 November 2022", "Saturday, 24 December 2022", "Friday, 30 December 2022 (Limited Operations)", "Saturday, 31 December 2022"],
+            "image": "https://Nobility92.github.io/wdd230/temple/images/fukuoka.jpg"  
         },
         {
             "name": "Albuquerque New Mexico Temple",
@@ -57,7 +58,8 @@
             "announced":"4 April 1997",
             "groundbreaking": "20 June 1998",
             "dedication": "5 March 2000",
-            "closure": ["Monday, 3 October 2022 - Monday, 17 October 2022", "Wednesday, 23 November 2022 (Limited Operations)", "Thursday, 24 November 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022 (Limited Operations)"] 
+            "closure": ["Monday, 3 October 2022 - Monday, 17 October 2022", "Wednesday, 23 November 2022 (Limited Operations)", "Thursday, 24 November 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022 (Limited Operations)"],
+            "image": "https://Nobility92.github.io/wdd230/temple/images/albuquerque.jpg"  
         },
         {
             "name": "Boston Massachusetts Temple",
@@ -68,7 +70,8 @@
             "announced":"30 September 1995",
             "groundbreaking": "13 June 1997",
             "dedication": "1 October 2000",
-            "closure": ["Monday, 26 September 2022 - Monday, 17 October 2022"] 
+            "closure": ["Monday, 26 September 2022 - Monday, 17 October 2022"],
+            "image": "https://Nobility92.github.io/wdd230/temple/images/boston.jpg"  
         }
     ]
 }
