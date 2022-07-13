@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Zen+Kurenaido&display=swap");
+
+body p {
+    font-family: "Zen Kurenaido", sans-serif;
+    font-size: 20px;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: "Cinzel", serif;
+  }
+  header, footer{
+    background-color: #0B3948;
+    padding: 5px 0;
+    width: 100%;
+    margin: auto;
+    
+  }
+#logo-area{
+    display: block;
+    width: 100%;
+    margin: 0;
+    justify-content: space-between;
+    text-align: center;
+    }
+    header h1{
+        color: #ffffff;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 15px;
+        text-shadow: 5px 10px 10px #ffffff;
+    }
+    header picture img{
+        width: 200px;
+        height: 150px;
+        padding: 5px;   
+        
+    }
+    .fb, .ln{
+        height: 40px;
+        width: 40px;
+        padding: 5px;;
+    }
+    .social{ 
+        margin-top: 25px; 
+    }
+    nav{
+        background-color: inherit;
+        margin-top: 5px;
+      }
+      nav button{
+          margin: .2rem 2vw;
+          background: transparent;
+          border: none;
+          font-size: 2rem;
+          color: #FFFFFF;
+      }
+    nav ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav ul li a{
+        display: block;
+        padding: .8rem 2vw;
+        font-family: "Zen Kurenaido", San Serif;
+        font-size: 20px;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    nav ul li a:hover{
+        background-color: #89A1EF;
+    }
+    
+    nav ul{
+        display: none;
+    }
+    nav ul.open{
+        display: block;
+    }
+    
+#hamburgerBtn span:nth-child(1){
+    display: block;
+}
+#hamburgerBtn span:nth-child(2){
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1){
+    display: none;
+}
+#hamburgerBtn.open span:nth-child(2){
+    display: block;
+}
+footer{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .foot{
+    display: block;
+    justify-content: space-between;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+  }
+  footer img{
+    width:200px;
+    height: 150px;
+    padding: 5px;
+  }
+  footer h3{
+    color: #ffffff;
+    text-shadow: 5px 10px 10px #ffffff;
+    padding-left: 10px;
+  }
+  iframe{
+    width: 250px;
+    height: 100px;
+    padding-left: 10px;
+  }
