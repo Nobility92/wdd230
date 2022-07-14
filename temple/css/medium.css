@@ -34,5 +34,9 @@
         margin-right: 2rem;
         margin-top: 40px;
       }
-
+/*for homepage*/
+.aba{
+    width: 500px;
+    border-radius: 15px;
+  }
 }
