@@ -151,9 +151,12 @@ footer{
     padding: .75rem 1.5rem;
     margin-bottom: 1rem;
   }
-  #temple-display, #weather{
+  #temple-display, #weather, #forecast{
     border: thin solid ;
     border-radius: 10px;
     margin-bottom: 5px;
+    background-color: #2D080A;
+    color: #FFFFFF;
   }
+
  
