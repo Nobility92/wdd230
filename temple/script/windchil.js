@@ -3,7 +3,7 @@ const temp = document.querySelector('#t');
 const wcondition = document.querySelector('#condition');
 const humidity = document.querySelector('#h');
 
-const url = "https://api.openweathermap.org/data/2.5/onecall?lat=38.98358531123399&lon=-77.09546743732618&appid=063dbb4eea74383c891a7e335525315b&units=imperial";
+const url = "https://api.openweathermap.org/data/2.5/onecall?lat=38.98358531123399&lon=-77.09546743732618&exclude=hourly,minutely&appid=063dbb4eea74383c891a7e335525315b&units=imperial";
 
 apiFetch(url);
 
