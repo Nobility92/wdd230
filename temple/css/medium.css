@@ -25,10 +25,10 @@
     }
     .white{
         font-size: 30px;
+        margin-top: 50px;
     }
-    iframe{
-        margin-right: 1rem;
-        margin-top: -40px;
+    footer a img{
+        margin-top: -60px;
       }
       .social{
         margin-right: 2rem;

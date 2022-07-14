@@ -100,6 +100,7 @@ footer{
     display: block;
     justify-content: space-between;
     color: #ffffff;
+    margin-top: -25px;
     padding: 5px;
     text-align: center;
   }
@@ -113,9 +114,10 @@ footer{
     text-shadow: 5px 10px 10px #ffffff;
     padding-left: 10px;
   }
-  iframe{
-    width: 250px;
+  footer a img{
+    width: 100px;
     height: 100px;
+    margin-top: -20px;
     padding-left: 10px;
   }
   .foot1{
@@ -124,3 +126,28 @@ footer{
   .update{
     font-size: 15px;
   }
+  /* for homepage*/
+  #home-grid{
+    display: block;
+    margin: 1rem;
+    text-align: center;
+  }
+  .aba{
+    width: 300px;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  #home-grid input{
+    border: none;
+    background-color: #0B3948;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin-bottom: 1rem;
+  }
+  #temple-display, #weather{
+    border: thin solid ;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+ 
