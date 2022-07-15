@@ -31,8 +31,6 @@ function displayResults(weatherdata){
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', wcondition);
 
-
-
     weatherIcon = wcondition ;
     
 
