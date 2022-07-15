@@ -5,10 +5,11 @@
             "address": "Aba, Abia State",
             "telephone": "(234) 80-3903-4810",
             "email": "ABA-THO@ChurchofJesusChrist.org",
-            "services": ["No clothing rental available", "Patron housing available", "No cafeteria available", "Distribution center nearby"],
+            "services": ["No clothing rental available", " Patron housing available", "No cafeteria available", "Distribution center nearby"],
             "announced":"2 April 2000",
             "groundbreaking": "23 February 2002",
             "dedication": "7 August 2005",
+            "notice": "For ordinanace and session schedule, contact the temples",
             "closure": ["Saturday, 20 August 2022", "Monday, 5 September 2022 - Monday, 2 January 2023"],
             "image": "https://Nobility92.github.io/wdd230/temple/images/aba_nigeria.jpg"
 
@@ -18,11 +19,12 @@
             "address": "Accra, Ghana",
             "telephone": "(233) 302-650-123",
             "email": "ACCRA-THO@ChurchofJesusChrist.org",
-            "services": ["No clothing rental available", "Patron housing available", "No cafeteria available", "Distribution center nearby"],
+            "services": ["No clothing rental available", " Patron housing available", " No cafeteria available", "Distribution center nearby"],
             "announced":"16 February 1998",
             "groundbreaking": "16 November 2001",
             "dedication": "11 January 2004",
-            "closure": ["Saturday, 20 August 2022", "Tuesday, 13 September 2022 - Monday, 26 September 2022", "Sunday, 25 December 2022 - Monday, 26 December 2022"],
+            "notice": "For ordinanace and session schedule, contact the temples",
+            "closure": ["Saturday, 20 August 2022", " Tuesday, 13 September 2022 - Monday, 26 September 2022", " Sunday, 25 December 2022 - Monday, 26 December 2022"],
             "image": "https://Nobility92.github.io/wdd230/temple/images/accra_ghana.jpg" 
         },
         {
@@ -34,6 +36,7 @@
             "announced":"1 April 1981",
             "groundbreaking": "27 November 1982",
             "dedication": "24 August 1985",
+            "notice": "For ordinanace and session schedule, contact the temples",
             "closure": ["Tuesday, 9 August 2022", "Monday, 15 August 2022 - Monday, 14 November 2022", "Friday, 16 December 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"],
             "image": "https://Nobility92.github.io/wdd230/temple/images/johannesburg.jpg" 
         },
@@ -46,6 +49,7 @@
             "announced":"7 May 1998",
             "groundbreaking": "20 March 1999",
             "dedication": "11 June 2000",
+            "notice": "For ordinanace and session schedule, contact the temples",
             "closure": ["Monday, 1 August 2022 - Wednesday, 30 November 2022", "Saturday, 24 December 2022", "Friday, 30 December 2022 (Limited Operations)", "Saturday, 31 December 2022"],
             "image": "https://Nobility92.github.io/wdd230/temple/images/fukuoka.jpg"  
         },
@@ -58,6 +62,7 @@
             "announced":"4 April 1997",
             "groundbreaking": "20 June 1998",
             "dedication": "5 March 2000",
+            "notice": "For ordinanace and session schedule, contact the temples",
             "closure": ["Monday, 3 October 2022 - Monday, 17 October 2022", "Wednesday, 23 November 2022 (Limited Operations)", "Thursday, 24 November 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022 (Limited Operations)"],
             "image": "https://Nobility92.github.io/wdd230/temple/images/albuquerque.jpg"  
         },
@@ -70,6 +75,7 @@
             "announced":"30 September 1995",
             "groundbreaking": "13 June 1997",
             "dedication": "1 October 2000",
+            "notice": "For ordinanace and session schedule, contact the temples",
             "closure": ["Monday, 26 September 2022 - Monday, 17 October 2022"],
             "image": "https://Nobility92.github.io/wdd230/temple/images/boston.jpg"  
         }
