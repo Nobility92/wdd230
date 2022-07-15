@@ -12,9 +12,9 @@ const d = new Date();
 let datetime = d.getFullYear()+'/'+d.getMonth()+'/'+d.getDate()+ '  ' + d.getHours()+':'+d.getMinutes()+':'+d.getSeconds();
 document.getElementById("update").innerHTML = datetime;
 
-/*for temple homepage display
+//for temple page display
 const temple = 'https://nobility92.github.io/wdd230/temple/temple.json';
-const temp = document.querySelector('#temple-display');
+const temp = document.querySelector('#temple-grid');
 
 async function getTemple(){
     let response = await fetch(temple);
@@ -49,4 +49,3 @@ function displayTemple(data){
     });
 }
 getTemple();
-*/

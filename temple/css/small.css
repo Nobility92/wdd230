@@ -159,4 +159,21 @@ footer{
     color: #FFFFFF;
   }
 
- 
+ /*for temple page*/
+ #temple-grid{
+  display: block;
+  margin: 1rem;
+  text-align: center;
+}
+#temple-grid img{
+  width: 300px;
+  border-radius: 10px;
+  padding: 5px;
+}
+#temple-grid section{
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: #2D080A;
+  color: #FFFFFF;
+}
