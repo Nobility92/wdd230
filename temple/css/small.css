@@ -177,12 +177,37 @@ footer{
   background-color: #2D080A;
   color: #FFFFFF;
 }
-.fa {
-  font-size: 50px;
-  cursor: pointer;
-  user-select: none;
+/*for contact page*/
+form{
+  margin: 2rem;
 }
-
-.fa:hover {
-  color: darkblue;
+label.infor{
+    display: block;
+    padding: .75rem;
+    color: #071136;
+    font-size: 1rem;
+} 
+label.infor input, textarea{
+    display: block;
+    font-size: 1rem;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    max-width: 20rem;
+    background-color: darkgray;
+}
+input.submitBtn{
+  border: none;
+  background-color: #0B3948;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 1rem;
+}
+label.infor input:required{
+  border-left: red solid 6px;
+}
+label.infor input:required:valid{
+  border-left: green solid 6px;
 }
