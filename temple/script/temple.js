@@ -41,12 +41,12 @@ function displayTemple(data){
         image.setAttribute('src', details.image);
         image.setAttribute('alt', `picture of ${details.name}`);
         h3.innerHTML = `${details.name}`;
-        p1.innerHTML = `Address: ${details.address}`;
-        p3.innerHTML = `Email: ${details.email}`;
+        p1.innerHTML = `<strong>Address:</strong> ${details.address}`;
+        p3.innerHTML = `<strong>Email:</strong> ${details.email}`;
         p2.innerHTML = `<strong> Announced: ${details.announced} <br> Groundbreaking: ${details.groundbreaking} <br> Dedicated: ${details.dedication} </strong>`;
-        p4.innerHTML = `Services: ${details.services}`;
-        p5.innerHTML = `Closure: ${details.closure}`;
-        p6.innerHTML = `Notice: ${details.notice}`;
+        p4.innerHTML = `<strong>Services:</strong> ${details.services}`;
+        p5.innerHTML = `<strong>Closure:</strong> ${details.closure}`;
+        p6.innerHTML = `<strong>Notice:</strong> ${details.notice}`;
        
         card.append(image);
         card.append(h3);
