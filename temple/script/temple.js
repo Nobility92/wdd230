@@ -46,7 +46,7 @@ function displayTemple(data){
         p2.innerHTML = `<strong> Announced: ${details.announced} <br> Groundbreaking: ${details.groundbreaking} <br> Dedicated: ${details.dedication} </strong>`;
         p4.innerHTML = `Services: ${details.services}`;
         p5.innerHTML = `Closure: ${details.closure}`;
-        p5.innerHTML = `<strong>Notice:</strong> ${details.notice}`;
+        p6.innerHTML = `Notice: ${details.notice}`;
        
         card.append(image);
         card.append(h3);
@@ -59,8 +59,6 @@ function displayTemple(data){
         
         temp.append(card);
         
-
-       
     });
 }
 
