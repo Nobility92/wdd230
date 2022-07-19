@@ -16,6 +16,20 @@
         margin-top: -50px;
         font-size: 2rem;
       }
+      /* for homepage */
+      #home-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+      }
+      #temple-display{
+        grid-column: 1/2;
+        grid-row: 1/3;
+      }
+      #weather{
+        grid-column: 2/3;
+        grid-row: 1/2;
+      }
       /*for temple page*/
       #temple-grid{
         display: grid;
