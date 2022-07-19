@@ -205,6 +205,12 @@ input.submitBtn{
   padding: .75rem 1.5rem;
   margin: 1rem;
 }
+input.submitBtn:hover{
+    background-color: #89A1EF;
+}
+input.reserve:hover{
+  background-color: #89A1EF;
+}
 label.infor input:required{
   border-left: red solid 6px;
 }
