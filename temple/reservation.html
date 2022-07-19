@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage | Temple Inn and Suites</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,100;1,200;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/small.css"/>
+    <link rel="stylesheet" href="css/medium.css"/>
+    <link rel="stylesheet" href="css/large.css"/>
+    
+    
+</head>
+<body>
+    <header>
+        <div id="logo-area">
+            <picture>
+                <img src="images/temple-logo.png" class="logo" alt="logo">
+            </picture>
+            <section class="heading">
+                <h1>Temple Inn and Suites </h1>  
+                <p>Your Comfort is our Priority</p>
+            </section>
+        <div class="social">
+          <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png" class="fb" alt="facebook image"></a>  
+            <a href="https://www.linkedin.com" target="_blank"><img src="images/linkedin.png" class="ln" alt="linkedin image"></a>
+        </div>
+    </div>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="temples.html">Temples</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="date">
+            
+        </div>
+       
+    </header>
+    
+    <main>
+        <div id="reserve">
+            <form method="get">
+                <label class="infor">Full Name*: <input type="text" name="fullname" required></label>
+                <label class="infor">Email*: <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="infor">Telephone: <input type="tel" name="telephone" placeholder="123444555"required></label>
+                <label class="infor">Number of Beds*: <input type="number" name="bed" required></label>
+                <label class="infor">Arrival Date: <input type="date" name="arrival" required></label>
+                <label class="infor">Number of Nights: <input type="number" name="night" required></label>
+                <label class="infor">Additional Instruction:<textarea id="descibe" name="describe" maxlength="250" placeholder="Please provide a short message"></textarea></label>
+                <input type="submit" value="Reserve" class="submitBtn">
+                
+            </form>
+          
+         </div>
+    
+</main>
+<footer>
+    <div id="logo-area1">
+        <picture>
+            <img src="images/temple-logo.png" alt="logo">
+        </picture>
+        <section class="heading1">
+            <h3 class="white">Temple Inn and Suites</h3>
+        </section>
+
+</div>
+<a href="https://goo.gl/maps/hFas6cqe3KmQFfjW7" target="_blank"><img src="images/google_map.png" alt="google map icon"></a>
+
+    <div class="foot">
+        <p>Email: info@templeinn.com <br>Phone: (1)333-444-6565</p>
+        <p class="foot1">&copy; 2022 Temple Inn and Suites .:|:. Nwaokonko, Uchenna Henry .:|:. WDD 230 Project</p>
+        <p class="update">Last Updated: <span id="update"></span></p>  
+    </div>
+</footer>
+<script src="script/temple.js"></script>
+<script src="script/windchil.js"></script>
+</body>
+
+
+</html>
+
