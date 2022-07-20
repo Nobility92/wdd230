@@ -236,13 +236,17 @@ ul li{
 #reception{
   margin: 2rem;
 }
-.recep-grid{
+.recep-grid .fulltime-grid{
   display: block;
   text-align: center;
 }
-.recep-grid picture img{
+.recep-grid picture img, .fulltime-grid picture img{
   width: 300px;
   margin-bottom: 15px;
   border-radius: 10px;
   box-shadow: 5px 5px 10px #2D080A ;
+}
+/*for reception page*/
+#fulltime{
+  margin: 2rem;
 }

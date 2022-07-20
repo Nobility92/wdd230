@@ -36,12 +36,15 @@
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       }
       /*for reception page*/
-  .recep-grid{
+  .recep-grid, .fulltime-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
   }
-  .recep-grid picture img:hover{
+  .recep-grid picture img:hover {
+    border-radius: 15px 100px;
+  }
+  .fulltime-grid picture img:hover{
     border-radius: 15px 100px;
   }
 }
