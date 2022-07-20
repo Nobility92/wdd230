@@ -232,3 +232,17 @@ ul{
 ul li{
   padding: 5px;
 }
+/*for reception page*/
+#reception{
+  margin: 2rem;
+}
+.recep-grid{
+  display: block;
+  text-align: center;
+}
+.recep-grid picture img{
+  width: 300px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #2D080A ;
+}
