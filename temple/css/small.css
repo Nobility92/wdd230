@@ -232,6 +232,14 @@ ul{
 ul li{
   padding: 5px;
 }
+#services a:visited{
+  color: green;
+}
+#services a{
+  text-decoration: none;
+  font-family: "Zen Kurenaido", San Serif;
+  font-size: 20px;
+}
 /*for reception page*/
 #reception{
   margin: 2rem;
