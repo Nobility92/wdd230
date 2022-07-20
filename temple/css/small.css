@@ -221,3 +221,14 @@ label.infor input:required:valid{
 #reserve-thanks{
   text-align: center;
 }
+/*for service page*/
+#services{
+  margin: 1rem;
+}
+ul{
+  font-family: "Zen Kurenaido", San Serif;
+  font-size: 20px;
+}
+ul li{
+  padding: 5px;
+}
