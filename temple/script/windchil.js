@@ -22,14 +22,14 @@ async function apiFetch(apiUrl){
         }
 }
 function displayResults(weatherdata){
-    temp1.innerHTML = `${weatherdata.current.temp.toFixed(1)}`;
-    humidity.innerHTML = `${weatherdata.current.humidity.toFixed(1)}`;
-    day1.innerHTML = `${weatherdata.daily[1].temp.day.toFixed(1)}`;
-    day2.innerHTML = `${weatherdata.daily[2].temp.day.toFixed(1)}`;
-    day3.innerHTML = `${weatherdata.daily[3].temp.day.toFixed(1)}`;
+    temp1.innerHTML = `<strong>${weatherdata.current.temp.toFixed(1)}</strong>`;
+    humidity.innerHTML = `<strong>${weatherdata.current.humidity.toFixed(1)}</strong>`;
+    day1.innerHTML = `<strong>${weatherdata.daily[1].temp.day.toFixed(1)}</strong>`;
+    day2.innerHTML = `<strong>${weatherdata.daily[2].temp.day.toFixed(1)}</strong>`;
+    day3.innerHTML = `<strong>${weatherdata.daily[3].temp.day.toFixed(1)}</strong>`;
     
     const iconsrc = `https://openweathermap.org/img/w/${weatherdata.current.weather[0].icon}.png`;
-    wcondition.innerHTML = `${weatherdata.current.weather[0].description}`;
+    wcondition.innerHTML = `<strong>${weatherdata.current.weather[0].description}</strong>`;
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', wcondition);
 
